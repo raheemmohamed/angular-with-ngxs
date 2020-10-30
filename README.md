@@ -2,6 +2,15 @@
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 8.3.14.
 
+## NGXS
+
+In this project developed with NGXS state managment pattern [click here to read NGXS documentation]("https://www.ngxs.io")
+
+## Technical Confusion words
+
+**immutable** => that means you cannot simple edit it and save it, it is not editable.
+**single source of truth** => single source of truth is the practice of structuring information models and associated data schema such that every data element is mastered in only one place.
+
 ## Development server
 
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
