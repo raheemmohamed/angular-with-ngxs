@@ -9,6 +9,7 @@ In this project developed with NGXS state managment pattern [click here to read 
 ## Technical Confusion words
 
 **immutable** => that means you cannot simple edit it and save it, it is not editable.
+
 **single source of truth** => single source of truth is the practice of structuring information models and associated data schema such that every data element is mastered in only one place.
 
 ## Development server
