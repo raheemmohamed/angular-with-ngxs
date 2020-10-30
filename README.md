@@ -4,7 +4,7 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 
 ## NGXS
 
-In this project developed with NGXS state managment pattern [click here to read NGXS documentation]("https://www.ngxs.io")
+In this project developed with NGXS state managment pattern [Click here](https://www.ngxs.io/) to read NGXS documentation
 
 ## Technical Confusion words
 
