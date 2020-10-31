@@ -20,6 +20,10 @@ Mock data getting from https://www.mockapi.io
 
 **single source of truth** => single source of truth is the practice of structuring information models and associated data schema such that every data element is mastered in only one place.
 
+## Reference links
+
+[Reference link one](https://medium.com/better-programming/angular-state-management-with-ngxs-8b17719def29)
+
 ## Development server
 
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
@@ -30,7 +34,7 @@ Run `ng generate component component-name` to generate a new component. You can 
 
 ## Build
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
+Run `ng build --prod --base-href "https://raheemmohamed.github.io/angular-with-ngxs/"` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
 
 ## Running unit tests
 
