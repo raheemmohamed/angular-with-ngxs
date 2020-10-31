@@ -6,6 +6,10 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 
 In this project developed with NGXS state managment pattern [Click here](https://www.ngxs.io/) to read NGXS documentation
 
+## REST API
+
+Mock data getting from https://www.mockapi.io
+
 ## Technical Confusion words
 
 **immutable** => that means you cannot simple edit it and save it, it is not editable.
