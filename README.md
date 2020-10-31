@@ -2,6 +2,10 @@
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 8.3.14.
 
+## Demo
+
+Go to demo app [click here](https://raheemmohamed.github.io/angular-with-ngxs/)
+
 ## NGXS
 
 In this project developed with NGXS state managment pattern [Click here](https://www.ngxs.io/) to read NGXS documentation

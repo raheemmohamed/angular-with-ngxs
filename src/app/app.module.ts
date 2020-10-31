@@ -27,7 +27,7 @@ import { ArticlesState } from "./articles/store/articles.state";
     }),
     NgxsLoggerPluginModule.forRoot(),
     NgxsReduxDevtoolsPluginModule.forRoot({
-      disabled: environment.production,
+      //disabled: environment.production,
     }),
     ReactiveFormsModule,
     FormsModule,
