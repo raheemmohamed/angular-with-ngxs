@@ -5,6 +5,7 @@
 export const environment = {
   production: false,
   apiEndpointUrl: "https://jsonplaceholder.typicode.com/todos",
+  apiEndpointArticles: "https://5f9d3ff96dc8300016d4329b.mockapi.io",
 };
 
 /*

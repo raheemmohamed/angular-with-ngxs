@@ -1,10 +1,23 @@
-<div class="container">
-  <div class="row">
-    <div class="col-md-6">
-      <app-create></app-create>
-    </div>
-    <div class="col-md-6">
-      <app-index></app-index>
-    </div>
+<div>
+  <div class="text-center title">
+    <a class="navbar-brand" href="#">Angular with NGXS State management</a>
+  </div>
+  <div>
+    <nav class="navbar navbar-dark bg-primary">
+      <!-- Navbar content -->
+      <ul class="navbar-nav mr-auto flex-row m-auto">
+        <li class="nav-item mr-2" [routerLinkActive]="'active'">
+          <a class="nav-link" [routerLink]="['/users']">Users</a>
+        </li>
+        <li class="nav-item mr-2" [routerLinkActive]="'active'">
+          <a class="nav-link" [routerLink]="['/articles']"
+            >Articles <span class="sr-only">(current)</span></a
+          >
+        </li>
+      </ul>
+    </nav>
+  </div>
+  <div>
+    <router-outlet></router-outlet>
   </div>
 </div>

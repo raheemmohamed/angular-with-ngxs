@@ -14,12 +14,15 @@ import { HttpClientModule } from "@angular/common/http";
 import { NgxsLoggerPluginModule } from "@ngxs/logger-plugin";
 import { NgxsReduxDevtoolsPluginModule } from "@ngxs/devtools-plugin";
 import { UserState } from "./store/state/user.state";
+import { UsersComponent } from "./layouts/users/users.component";
+import { ArticlesModule } from "./articles/articles.module";
+import { ArticlesState } from "./articles/store/articles.state";
 @NgModule({
-  declarations: [AppComponent, CreateComponent, IndexComponent],
+  declarations: [AppComponent, CreateComponent, IndexComponent, UsersComponent],
   imports: [
     BrowserModule,
     AppRoutingModule,
-    NgxsModule.forRoot([UserState], {
+    NgxsModule.forRoot([UserState, ArticlesState], {
       developmentMode: !environment.production,
     }),
     NgxsLoggerPluginModule.forRoot(),
@@ -29,6 +32,7 @@ import { UserState } from "./store/state/user.state";
     ReactiveFormsModule,
     FormsModule,
     HttpClientModule,
+    ArticlesModule,
   ],
   providers: [],
   bootstrap: [AppComponent],
